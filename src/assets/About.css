@@ -39,6 +39,7 @@
 }
 
 .about-scrolling-content {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +60,7 @@
 
 .navbar-line {
     width: 90%;
-    margin: 0 0 71px;
+    margin: 0 0 65px;
     border-style: solid;
     border-color: #bebebe;
     border-width: 1px;
