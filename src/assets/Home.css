@@ -14,6 +14,27 @@
     justify-content: space-between;
 }
 
+.home-sidebar {
+    margin: 20px 0 0 30px;
+    display: none;
+    align-items: center;
+}
+
+.home-sidebar-logo {
+    margin-right: 5px;
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+
+.home-sidebar-text {
+    font-size: 23px;
+    font-weight: 600;
+    color: #f1f1f1;
+    text-transform: uppercase;
+
+}
+
 .home-menu {
     display: flex;
     flex-direction: column;
@@ -47,4 +68,32 @@
 
 .home-arrow {
     color: #f1f1f1;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .home-wrapper {
+        height: 70vh;
+    }
+
+    .home-scrolling-content {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 412px) {
+    
+    .home-wrapper {
+        height: 25vh;
+    }
+
+    .home-line {
+        display: none;
+    }
+
+    .home-sidebar {
+        display: flex;
+    }
+
 }

@@ -1,7 +1,7 @@
 .navbar {
     margin-top: 25px;
     height: 70px;
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -38,4 +38,24 @@ ul {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .navbar-menu-links {
+        margin: 0 20px;
+    }
+
+}
+
+@media screen and (max-width: 412px) {
+    
+    .navbar {
+        display: none;
+    }
+
+    .navbar-darker {
+        display: none;
+    }
+
 }
