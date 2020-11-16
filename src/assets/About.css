@@ -43,7 +43,6 @@
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -101,31 +100,27 @@
 
 @media screen and (max-width: 800px) {
     .about-content {
-        width: 700px;
-        padding-left: 25px;
+        width: 90%;
+        padding-left: 40px;
     }
 
     .about-image {
-        width: 768px;
-        height: 700px;
+        max-width: 768px;
+        max-height: 700px;
+        width: 100%;
+        height: auto;
     }
 
 }
 
 @media screen and (max-width: 600px) {
     .about-content {
-        width: 90%;
         padding-left: 25px;
-    }
-
-    .about-image {
-        width: 600px;
-        height: 550px;
     }
 
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 500px) {
     .about-content {
         margin-bottom: 35px;
     }
